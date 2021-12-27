@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: VoxPopuli
+Bundle-SymbolicName: VoxPopuli;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: voxpopuli.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.e4.ui.workbench;bundle-version="1.13.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: VoxPopuli
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,
+ lib/commons-math3-3.2.jar,
+ lib/sphinx4-core-5prealpha-SNAPSHOT.jar,
+ lib/sphinx4-data-5prealpha-SNAPSHOT.jar,
+ lib/org.eclipse.jdt.ui-3.13.52.jar

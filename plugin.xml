@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            id="VoxPopuli.commands.category"
+            name="Vox Category">
+      </category>
+      <command
+            categoryId="VoxPopuli.commands.category"
+            name="Vox Start Command"
+            id="VoxPopuli.commands.startCommand">
+      </command>
+      <command
+            categoryId="VoxPopuli.commands.category"
+            name="Vox Stop Command"
+            id="VoxPopuli.commands.stopCommand">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="voxpopuli.handlers.StartVoiceHandler"
+            commandId="VoxPopuli.commands.startCommand">
+      </handler>
+      <handler
+            class="voxpopuli.handlers.StopVoiceHandler"
+            commandId="VoxPopuli.commands.stopCommand">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="VoxPopuli.commands.startCommand"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            contextId="org.eclipse.ui.contexts.window"
+            sequence="M1+6">
+      </key>
+      <key
+            commandId="VoxPopuli.commands.stopCommand"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            contextId="org.eclipse.ui.contexts.window"
+            sequence="M1+7">
+      </key>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         <menu
+               id="VoxPopuli.menus.sampleMenu"
+               label="Vox Menu"
+               mnemonic="M">
+            <command
+                  commandId="VoxPopuli.commands.startCommand"
+                  id="VoxPopuli.menus.startCommand"
+                  mnemonic="S">
+            </command>
+            <command
+                  commandId="VoxPopuli.commands.stopCommand"
+                  id="VoxPopuli.menus.stopCommand"
+                  mnemonic="S">
+            </command>
+         </menu>
+      </menuContribution>
+      <menuContribution
+            locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
+         <toolbar
+               id="VoxPopuli.toolbars.sampleToolbar">
+            <command
+                  id="VoxPopuli.toolbars.startCommand"
+                  commandId="VoxPopuli.commands.startCommand"
+                  icon="icons/sample.png"
+                  tooltip="Start Voice Listener">
+            </command>
+            <command
+                  id="VoxPopuli.toolbars.stopCommand"
+                  commandId="VoxPopuli.commands.stopCommand"
+                  icon="icons/sample.png"
+                  tooltip="Stop Voice Listener">
+            </command>
+         </toolbar>
+      </menuContribution>
+   </extension>
+
+</plugin>
