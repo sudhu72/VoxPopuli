@@ -10,12 +10,12 @@
       </category>
       <command
             categoryId="VoxPopuli.commands.category"
-            name="Vox Start Command"
+            name="Start Listening"
             id="VoxPopuli.commands.startCommand">
       </command>
       <command
             categoryId="VoxPopuli.commands.category"
-            name="Vox Stop Command"
+            name="Stop Listening"
             id="VoxPopuli.commands.stopCommand">
       </command>
    </extension>
@@ -51,7 +51,7 @@
             locationURI="menu:org.eclipse.ui.main.menu?after=additions">
          <menu
                id="VoxPopuli.menus.sampleMenu"
-               label="Vox Menu"
+               label="VoxPopuli"
                mnemonic="M">
             <command
                   commandId="VoxPopuli.commands.startCommand"

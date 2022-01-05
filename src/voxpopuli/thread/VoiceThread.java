@@ -49,14 +49,16 @@ public class VoiceThread implements Runnable {
 		String phrase = null;
 
 		while (running.get()) {
-			
+
 			result = recognizer.getResult();
 
 			phrase = result.getHypothesis().toLowerCase();
 
 			System.out.println("Here: " + phrase);
 
-			if (phrase.startsWith("eclipse")) {
+			if (phrase.startsWith("eclipse stop listening")) {
+				break;// Exit out and stop recognizer
+			} else if (phrase.startsWith("eclipse")) {
 				ActionManager.findActionAndNotify(phrase);
 			} else {
 				continue;

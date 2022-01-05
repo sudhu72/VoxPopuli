@@ -25,7 +25,7 @@ public class ActionManager
     
     public static void findActionAndNotify(final String actionId) {
     	System.out.println("findActionAndNotify: "+actionId);
-        final Optional<Action> action = ActionManager.actions.stream().filter(el -> el.getActionId().equals(actionId)).findFirst();
+        final Optional<Action> action = ActionManager.actions.stream().filter(el -> el.getActionId().equalsIgnoreCase(actionId)).findFirst();
         if (action.isPresent()) {
             ActionManager.listeners.stream().forEach(el -> el.action(action.get()));
         }

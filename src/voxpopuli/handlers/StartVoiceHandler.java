@@ -4,9 +4,11 @@ import org.eclipse.core.commands.AbstractHandler;
 import org.eclipse.core.commands.ExecutionEvent;
 import org.eclipse.core.commands.ExecutionException;
 import org.eclipse.core.commands.common.NotDefinedException;
-import org.eclipse.jface.dialogs.MessageDialog;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Event;
+import org.eclipse.ui.IEditorInput;
+import org.eclipse.ui.IEditorPart;
+import org.eclipse.ui.IWorkbenchSite;
 import org.eclipse.ui.IWorkbenchWindow;
 import org.eclipse.ui.handlers.HandlerUtil;
 import org.eclipse.ui.handlers.IHandlerService;
@@ -123,6 +125,9 @@ public class StartVoiceHandler extends AbstractHandler implements ActionListener
 	public void action(Action action) {
 		System.out.println("EclipseID: "+action.getEclipseId());
 		
+//		Display display = HandlerUtil.getActiveShell(event).getDisplay();
+//		System.out.println("Display Class: "+display.getClass());
+		
 		//To avoid illegal thread access exception
 		//https://stackoverflow.com/questions/5980316/invalid-thread-access-error-with-java-swt
 		
@@ -140,9 +145,26 @@ public class StartVoiceHandler extends AbstractHandler implements ActionListener
 			@Override
             public void run() {
                 try {
-                    final IWorkbenchWindow window = HandlerUtil.getActiveWorkbenchWindow(StartVoiceHandler.this.event);
-                    final IHandlerService handlerService = (IHandlerService)window.getService((Class)IHandlerService.class);
-                    handlerService.executeCommand(action.getEclipseId(), (Event)null);
+                	System.out.println("ActiveEditor: "+HandlerUtil.getActiveEditor(StartVoiceHandler.this.event).getClass().getSimpleName());
+                	System.out.println("ActiveEditorInput: "+HandlerUtil.getActiveEditorInput(StartVoiceHandler.this.event).getClass().getSimpleName());
+                	System.out.println("ActiveShell: "+HandlerUtil.getActiveShell(StartVoiceHandler.this.event).getClass().getSimpleName());
+                	System.out.println("ActivePart: "+HandlerUtil.getActivePart(StartVoiceHandler.this.event).getClass().getSimpleName());
+                	System.out.println("ActiveSite: "+HandlerUtil.getActiveSite(StartVoiceHandler.this.event).getClass().getSimpleName());
+                	System.out.println("ActiveWorkbenchWindow: "+HandlerUtil.getActiveWorkbenchWindow(StartVoiceHandler.this.event).getClass().getSimpleName());
+                	
+                	//final IEditorInput editorInput = HandlerUtil.getActiveEditorInput(StartVoiceHandler.this.event);
+                	
+//                	IWorkbenchSite site = HandlerUtil.getActiveSite(StartVoiceHandler.this.event);
+//                	final IHandlerService handlerService = (IHandlerService)site.getService(IHandlerService.class);
+//                	handlerService.executeCommand(action.getEclipseId(), (Event)null);
+                	
+                	IEditorPart editorPart = HandlerUtil.getActiveEditor(StartVoiceHandler.this.event);
+                	final IHandlerService handlerService = (IHandlerService)editorPart.getEditorSite().getService(IHandlerService.class);
+                	handlerService.executeCommand(action.getEclipseId(), (Event)null);
+                	
+//                    final IWorkbenchWindow window = HandlerUtil.getActiveWorkbenchWindow(StartVoiceHandler.this.event);
+//                    final IHandlerService handlerService = (IHandlerService)window.getService(IHandlerService.class);
+//                    handlerService.executeCommand(action.getEclipseId(), (Event)null);
                 }
                 catch (Exception e) {
                     System.out.println(e.getMessage());

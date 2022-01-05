@@ -12,18 +12,18 @@ public enum VoxpopuliApp //implements Runnable
 
 	private Configuration configuration = null;
 	private LiveSpeechRecognizer recognizer = null;
-//	private final AtomicBoolean stopRecognizer = new AtomicBoolean(false);
 	private VoiceThread voiceThread = null;
 
 	VoxpopuliApp() {
 		configuration = new Configuration();
 		configuration.setAcousticModelPath("resource:/edu/cmu/sphinx/models/en-us/en-us");
-//		configuration.setDictionaryPath("/Users/sudhu72/Research/Polaris/8620.dic");
-//		configuration.setLanguageModelPath("/Users/sudhu72/Research/Polaris/8620.lm");
-		
-		configuration.setDictionaryPath("resource:/lib/8620.dic");
-		configuration.setLanguageModelPath("resource:/lib/8620.lm");
-		
+
+//		configuration.setDictionaryPath("resource:/lib/8620.dic");
+//		configuration.setLanguageModelPath("resource:/lib/8620.lm");
+
+		configuration.setDictionaryPath("resource:/lib/9152.dic");
+		configuration.setLanguageModelPath("resource:/lib/9152.lm");
+
 		try {
 			recognizer = new LiveSpeechRecognizer(configuration);
 		} catch (IOException e) {
