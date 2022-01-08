@@ -21,8 +21,8 @@ public enum VoxpopuliApp //implements Runnable
 //		configuration.setDictionaryPath("resource:/lib/8620.dic");
 //		configuration.setLanguageModelPath("resource:/lib/8620.lm");
 
-		configuration.setDictionaryPath("resource:/lib/9152.dic");
-		configuration.setLanguageModelPath("resource:/lib/9152.lm");
+		configuration.setDictionaryPath("resource:/lib/5856.dic");
+		configuration.setLanguageModelPath("resource:/lib/5856.lm");
 
 		try {
 			recognizer = new LiveSpeechRecognizer(configuration);
