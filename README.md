@@ -15,6 +15,8 @@ Dictionary and other eclipse features/hot keys info files are in the documents d
 
 Plugin jar creation needs Eclipse IDE for now. A build script will be provided soon.
 
-The trigger word for voice commands start with 'vox'.
+The voice listener can be initialized from the menu - VoxPopuli->Start Listening. The trigger word for voice commands start with 'vox'.
+
+VoxPopuli will stop listening with the voice command - "Vox Stop Listening".
 
 This project intends to increase productivity of programmers who cannot use the keyboard effectively. 
