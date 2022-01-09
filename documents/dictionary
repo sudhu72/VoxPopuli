@@ -1,256 +1,256 @@
-Eclipse Context Information
-Eclipse Copy
-Eclipse Cut
-Eclipse Delete
-Eclipse Find Next
-Eclipse Find Previous
-Eclipse Find and Replace
-Eclipse Incremental Find Reverse
-Eclipse Incremental Find
-Eclipse Paste
-Eclipse Quick Diff Toggle
-Eclipse Quick Fix
-Eclipse Redo
-Eclipse Restore Last Selection
-Eclipse Select All
-Eclipse Select Enclosing Element
-Eclipse Select Next Element
-Eclipse Select Previous Element
-Eclipse Toggle Block Selection
-Eclipse Toggle Insert Mode
-Eclipse Toggle Word Wrap
-Eclipse Undo
-Eclipse Word Completion
-Eclipse Close All
-Eclipse Close
-Eclipse New menu
-Eclipse New
-Eclipse Print
-Eclipse Properties
-Eclipse Refresh
-Eclipse Rename
-Eclipse Save All
-Eclipse Save
-Eclipse Format Source
-Eclipse Backward History
-Eclipse Collapse All
-Eclipse Expand All
-Eclipse Forward History
-Eclipse Go to Line
-Eclipse Go to Matching Bracket
-Eclipse Go to Next Member
-Eclipse Go to Previous Member
-Eclipse Last Edit Location
-Eclipse Next Page
-Eclipse Next Sub Tab
-Eclipse Next Tab
-Eclipse Next
-Eclipse Open Attached Javadoc
-Eclipse Open Call Hierarchy
-Eclipse Open Declaration
-Eclipse Open Manifest
-Eclipse Open Plug-in Artifact
-Eclipse Open Resource
-Eclipse Open Structure
-Eclipse Open Type Hierarchy
-Eclipse Open Type in Hierarchy
-Eclipse Open Type
-Eclipse Open from Clipboard
-Eclipse Previous Page
-Eclipse Previous Sub-Tab
-Eclipse Previous Tab
-Eclipse Previous
-Eclipse Quick Hierarchy
-Eclipse Show Outline
-Eclipse Quick Outline
-Eclipse Show In Breadcrumb
-Eclipse Show In Quick Menu
-Eclipse Build All
-Eclipse Change Method Signature
-Eclipse Extract Local Variable
-Eclipse Extract Method
-Eclipse Inline
-Eclipse Move
-Eclipse Rename
-Eclipse Show Refactor Quick Menu
-Eclipse Add Memory Block
-Eclipse All Instances
-Eclipse Close Rendering
-Eclipse Debug Ant Build
-Eclipse Debug Eclipse Application
-Eclipse Debug JUnit Plug-in Test
-Eclipse Debug JUnit Test
-Eclipse Debug Java Applet
-Eclipse Debug Java Application
-Eclipse Debug OSGi Framework
-Eclipse Debug
-Eclipse Display
-Eclipse End Off File
-Eclipse Execute
-Eclipse Force Return
-Eclipse Go to Address
-Eclipse Inspect
-Eclipse Java Breakpoint Properties
-Eclipse New Rendering
-Eclipse Next Memory Monitor
-Eclipse Next Page of Memory
-Eclipse Previous Page of Memory
-Eclipse Resume
-Eclipse Run Ant Build
-Eclipse Run Eclipse Application
-Eclipse Run JUnit Plug-in Test
-Eclipse Run JUnit Test
-Eclipse Run Java Applet
-Eclipse Run Java Application
-Eclipse Run OSGi Framework
-Eclipse Run to Line
-Eclipse Run
-Eclipse Skip All Breakpoints
-Eclipse Step Into Selection
-Eclipse Step Into
-Eclipse Step Over
-Eclipse Step Return
-Eclipse Terminate
-Eclipse Toggle Breakpoint
-Eclipse Toggle Memory Monitors Pane
-Eclipse Use Step Filters
-Eclipse Declaration in Workspace
-Eclipse Find Text in Workspace
-Eclipse Open Search Dialog
-Eclipse References in Workspace
-Eclipse Show Occurrences in File Quick Menu
-Eclipse Add Block Comment
-Eclipse Add Import
-Eclipse Add Javadoc Comment
-Eclipse Annotate Class File
-Eclipse Correct Indentation
-Eclipse Format
-Eclipse Open Declaration
-Eclipse Open External Documentation
-Eclipse Organize Imports
-Eclipse Assign to field
-Eclipse Assign to local variable
-Eclipse Extract method
-Eclipse Rename in file
-Eclipse Remove Block Comment
-Eclipse Remove Occurrence Annotations
-Eclipse Rename In File
-Eclipse Show Source Quick Menu
-Eclipse Surround With Quick Menu
-Eclipse Toggle Ant Mark Occurrences
-Eclipse Toggle Comment
-Eclipse Toggle Mark Occurrences
-Eclipse Layout Spy
-Eclipse Plug-in Menu Spy
-Eclipse Plug-in Selection Spy
-Eclipse Collapse All
-Eclipse Collapse
-Eclipse Copy Lines
-Eclipse Delete Line
-Eclipse Delete Next Word
-Eclipse Delete Previous Word
-Eclipse Delete to End of Line
-Eclipse Duplicate Lines
-Eclipse Expand All
-Eclipse Expand
-Eclipse Insert Line Above Current Line
-Eclipse Insert Line Below Current Line
-Eclipse Join Lines
-Eclipse Line End
-Eclipse Line Start
-Eclipse Move Lines Down
-Eclipse Move Lines Up
-Eclipse Next Word
-Eclipse Open Hyperlink
-Eclipse Previous Word
-Eclipse Reset Structure
-Eclipse Scroll Line Down
-Eclipse Scroll Line Up
-Eclipse Select Line End
-Eclipse Select Line Start
-Eclipse Select Next Word
-Eclipse Select Previous Word
-Eclipse Show Tooltip Description
-Eclipse Text End
-Eclipse Text Start
-Eclipse To Lower Case
-Eclipse To Upper Case
-Eclipse Toggle Folding
-Eclipse Toggle Overwrite
-Eclipse Zoom In
-Eclipse Zoom Out
-Eclipse Add Artifact to Target Platform
-Eclipse Find References
-Eclipse Show View
-Eclipse Activate Editor
-Eclipse Next Editor
-Eclipse Next Perspective
-Eclipse Next View
-Eclipse Previous Editor
-Eclipse Previous Perspective
-Eclipse Previous View
-Eclipse Quick Access
-Eclipse Quick Switch Editor
-Eclipse Show Contributing Plug-in
-Eclipse Show Key Assist
-Eclipse Show Ruler Context Menu
-Eclipse Show System Menu
-Eclipse Show View Menu
-Eclipse Switch to Editor
-Eclipse Toggle Full Screen
-Eclipse Toggle Split Editor
-Eclipse Open Task
-Eclipse Insert Get Set
-Eclipse Insert Hash
-Eclipse Insert String
-Eclipse Insert Constructor
-Eclipse Action Terminate
-Eclipse Action Resume
-Eclipse Rebuild
-Eclipse Close Others
-Eclipse Open Workspace
-Eclipse Stop Listening
-Eclipse Import
-Eclipse Export
-Eclipse Save As
-Eclipse Revert
-Eclipse Restart Workbench
-Eclipse File Properties
-Eclipse File Exit
-Eclipse File Move
-Eclipse Content Assist
-Eclipse Add Task
-Eclipse Add Bookmark
-Eclipse Go Into
-Eclipse Navigate Back
-Eclipse Navigate Forward
-Eclipse Up
-Eclipse Link With Editor
-Eclipse Show In
-Eclipse Show In Target
-Eclipse Build Project
-Eclipse Close Project
-Eclipse Close Unrelated Projects
-Eclipse Open Project
-Eclipse New Window
-Eclipse New Editor
-Eclipse Maximize Active View
-Eclipse Minimize Active View
-Eclipse Close All Perspectives
-Eclipse Close Perspective
-Eclipse Close Perspective id
-Eclipse Close Part
-Eclipse Customize Perspective
-Eclipse Pin Editor
-Eclipse Preferences
-Eclipse Reset Perspective
-Eclipse Save Perspective
-Eclipse Lock Toolbar
-Eclipse Help Contents
-Eclipse Help Search
-Eclipse Dynamic Help
-Eclipse Help Welcome
-Eclipse Help Tips And Tricks
-Eclipse Help About
-Eclipse Show Perspective
-Eclipse Scroll Down
+Vox Context Information
+Vox Copy
+Vox Cut
+Vox Delete
+Vox Find Next
+Vox Find Previous
+Vox Find and Replace
+Vox Incremental Find Reverse
+Vox Incremental Find
+Vox Paste
+Vox Quick Diff Toggle
+Vox Quick Fix
+Vox Redo
+Vox Restore Last Selection
+Vox Select All
+Vox Select Enclosing Element
+Vox Select Next Element
+Vox Select Previous Element
+Vox Toggle Block Selection
+Vox Toggle Insert Mode
+Vox Toggle Word Wrap
+Vox Undo
+Vox Word Completion
+Vox Close All
+Vox Close
+Vox New menu
+Vox New
+Vox Print
+Vox Properties
+Vox Refresh
+Vox Rename
+Vox Save All
+Vox Save
+Vox Format Source
+Vox Backward History
+Vox Collapse All
+Vox Expand All
+Vox Forward History
+Vox Go to Line
+Vox Go to Matching Bracket
+Vox Go to Next Member
+Vox Go to Previous Member
+Vox Last Edit Location
+Vox Next Page
+Vox Next Sub Tab
+Vox Next Tab
+Vox Next
+Vox Open Attached Javadoc
+Vox Open Call Hierarchy
+Vox Open Declaration
+Vox Open Manifest
+Vox Open Plug-in Artifact
+Vox Open Resource
+Vox Open Structure
+Vox Open Type Hierarchy
+Vox Open Type in Hierarchy
+Vox Open Type
+Vox Open from Clipboard
+Vox Previous Page
+Vox Previous Sub-Tab
+Vox Previous Tab
+Vox Previous
+Vox Quick Hierarchy
+Vox Show Outline
+Vox Quick Outline
+Vox Show In Breadcrumb
+Vox Show In Quick Menu
+Vox Build All
+Vox Change Method Signature
+Vox Extract Local Variable
+Vox Extract Method
+Vox Inline
+Vox Move
+Vox Rename
+Vox Show Refactor Quick Menu
+Vox Add Memory Block
+Vox All Instances
+Vox Close Rendering
+Vox Debug Ant Build
+Vox Debug Eclipse Application
+Vox Debug JUnit Plug-in Test
+Vox Debug JUnit Test
+Vox Debug Java Applet
+Vox Debug Java Application
+Vox Debug OSGi Framework
+Vox Debug
+Vox Display
+Vox End Off File
+Vox Execute
+Vox Force Return
+Vox Go to Address
+Vox Inspect
+Vox Java Breakpoint Properties
+Vox New Rendering
+Vox Next Memory Monitor
+Vox Next Page of Memory
+Vox Previous Page of Memory
+Vox Resume
+Vox Run Ant Build
+Vox Run Eclipse Application
+Vox Run JUnit Plug-in Test
+Vox Run JUnit Test
+Vox Run Java Applet
+Vox Run Java Application
+Vox Run OSGi Framework
+Vox Run to Line
+Vox Run
+Vox Skip All Breakpoints
+Vox Step Into Selection
+Vox Step Into
+Vox Step Over
+Vox Step Return
+Vox Terminate
+Vox Toggle Breakpoint
+Vox Toggle Memory Monitors Pane
+Vox Use Step Filters
+Vox Declaration in Workspace
+Vox Find Text in Workspace
+Vox Open Search Dialog
+Vox References in Workspace
+Vox Show Occurrences in File Quick Menu
+Vox Add Block Comment
+Vox Add Import
+Vox Add Javadoc Comment
+Vox Annotate Class File
+Vox Correct Indentation
+Vox Format
+Vox Open Declaration
+Vox Open External Documentation
+Vox Organize Imports
+Vox Assign to field
+Vox Assign to local variable
+Vox Extract method
+Vox Rename in file
+Vox Remove Block Comment
+Vox Remove Occurrence Annotations
+Vox Rename In File
+Vox Show Source Quick Menu
+Vox Surround With Quick Menu
+Vox Toggle Ant Mark Occurrences
+Vox Toggle Comment
+Vox Toggle Mark Occurrences
+Vox Layout Spy
+Vox Plug-in Menu Spy
+Vox Plug-in Selection Spy
+Vox Collapse All
+Vox Collapse
+Vox Copy Lines
+Vox Delete Line
+Vox Delete Next Word
+Vox Delete Previous Word
+Vox Delete to End of Line
+Vox Duplicate Lines
+Vox Expand All
+Vox Expand
+Vox Insert Line Above Current Line
+Vox Insert Line Below Current Line
+Vox Join Lines
+Vox Line End
+Vox Line Start
+Vox Move Lines Down
+Vox Move Lines Up
+Vox Next Word
+Vox Open Hyperlink
+Vox Previous Word
+Vox Reset Structure
+Vox Scroll Line Down
+Vox Scroll Line Up
+Vox Select Line End
+Vox Select Line Start
+Vox Select Next Word
+Vox Select Previous Word
+Vox Show Tooltip Description
+Vox Text End
+Vox Text Start
+Vox To Lower Case
+Vox To Upper Case
+Vox Toggle Folding
+Vox Toggle Overwrite
+Vox Zoom In
+Vox Zoom Out
+Vox Add Artifact to Target Platform
+Vox Find References
+Vox Show View
+Vox Activate Editor
+Vox Next Editor
+Vox Next Perspective
+Vox Next View
+Vox Previous Editor
+Vox Previous Perspective
+Vox Previous View
+Vox Quick Access
+Vox Quick Switch Editor
+Vox Show Contributing Plug-in
+Vox Show Key Assist
+Vox Show Ruler Context Menu
+Vox Show System Menu
+Vox Show View Menu
+Vox Switch to Editor
+Vox Toggle Full Screen
+Vox Toggle Split Editor
+Vox Open Task
+Vox Insert Get Set
+Vox Insert Hash
+Vox Insert String
+Vox Insert Constructor
+Vox Action Terminate
+Vox Action Resume
+Vox Rebuild
+Vox Close Others
+Vox Open Workspace
+Vox Stop Listening
+Vox Import
+Vox Export
+Vox Save As
+Vox Revert
+Vox Restart Workbench
+Vox File Properties
+Vox File Exit
+Vox File Move
+Vox Content Assist
+Vox Add Task
+Vox Add Bookmark
+Vox Go Into
+Vox Navigate Back
+Vox Navigate Forward
+Vox Up
+Vox Link With Editor
+Vox Show In
+Vox Show In Target
+Vox Build Project
+Vox Close Project
+Vox Close Unrelated Projects
+Vox Open Project
+Vox New Window
+Vox New Editor
+Vox Maximize Active View
+Vox Minimize Active View
+Vox Close All Perspectives
+Vox Close Perspective
+Vox Close Perspective id
+Vox Close Part
+Vox Customize Perspective
+Vox Pin Editor
+Vox Preferences
+Vox Reset Perspective
+Vox Save Perspective
+Vox Lock Toolbar
+Vox Help Contents
+Vox Help Search
+Vox Dynamic Help
+Vox Help Welcome
+Vox Help Tips And Tricks
+Vox Help About
+Vox Show Perspective
+Vox Scroll Down
